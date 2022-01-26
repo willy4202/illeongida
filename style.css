@@ -18,16 +18,20 @@
   }
 }
 
-@media (max-width:500px){
+@media (max-width:520px){
   html{
     font-size: 7px;
     -webkit-text-size-adjust: none;
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
   }
-  ,
+  
   body{
     font-family: 'Nanum Myeongjo';
+  }
+  
+  .second_text {
+    text-align: left;
   }
 }
 
