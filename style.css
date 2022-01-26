@@ -23,6 +23,15 @@
 html {
   font-size: 10px;
 }
+@media (max-width:500px){
+  html{
+    font-size: 7px;
+  }
+
+img{
+  width: 70%;
+}
+}
 
 body {
   background-color: black;
@@ -33,6 +42,14 @@ body {
 /* .fade {
   animation: fadein 3s;
 } */
+
+.vid{
+  position: fixed;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  filter: brightness(40%);
+}
 
 .sticky_container {
   position: relative;
@@ -46,11 +63,11 @@ body {
   max-width: auto;
   padding: 12px 0px 6px 0px;
   text-align: center;
-background-color: black;
+  background-color: black;
 }
 
 .sticky_text{
-  padding-right: 40vw;
+  padding-right: 30vw;
   text-decoration: none;
   font-size: 1.5rem;
   font-family: serif;
@@ -69,8 +86,9 @@ background-color: black;
   transform: scale(1.1);
 }
 
+/* 본문 시작 */
+
 .box {
-  /* position: relative; */
   position: fixed;
   z-index: -1;
   margin: 0;
@@ -78,17 +96,7 @@ background-color: black;
   filter: brightness(40%);
 }
 
-/* .canvas{
-  align-content: center;
-  justify-content: center;
-  width: 70%;
-  margin: auto;
-} */
-
 .box_text {
-  /* position: absolute; /* 배경 위 글자 배치 */
-  /* top: 45%;
-  left: 50%; */
   text-align: center;
   line-height: 120%;
   font-size: 5rem;
@@ -127,22 +135,14 @@ background-color: black;
   font-weight: 600;
 }
 
+
+/* 첫번째 문단 */
 .first {
-  /* display: flex;
-  margin-top: 40vh;
-  margin-left: 10vw;
-  height: 100vh; */
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  align-items: center;
-  justify-items: center;
   margin-top: 30vh;
-  margin-bottom: 30vh;
-  /* 1fr씩 할당하고, 중앙으로 당겨온다 */
+  margin-bottom: 40vh;
 }
 
 .first_text {
-  margin-left: 10vw;
   font-size: 1.6rem;
   font-family: serif;
   font-weight: 600;
@@ -157,10 +157,10 @@ background-color: black;
 }
 
 .logo2 {
-  width: 100%;
-  margin-right: 10vw;
-  padding-bottom: 10vh;
 }
+/* 첫번째 문단 */
+
+/* 두번째 문단 */
 
 .second_text {
   margin-top: 5vh;
@@ -180,38 +180,7 @@ background-color: black;
   margin-right: auto;
 }
 
-
-/* .third{
-  position: relative;
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
-  align-items: center;
-  margin-top: 50vh;
-  margin-bottom: 30vh;
-  height: 40vh;
-  
-}
-
-.third_text{
-  align-self: start;
-  margin-left: 5vw;
-  font-size: 1.7rem;
-  font-family: serif;
-  letter-spacing: var(--text_space)
-}
-
-.third_logo{
-  justify-self: center;
-}
-
-.third_text2{
-  margin-right: 10vw;
-  align-self: end;
-  text-align: right;
-  font-size: 1.7rem;
-  font-family: serif;
-  letter-spacing: var(--text_space)
-} */
+/* 두번째 문단 */
 
 .third{
   position: relative;
@@ -225,7 +194,6 @@ background-color: black;
 
 .third_text{
   align-self: start;
-  margin-left: 20vw;
   font-size: 1.7rem;
   font-family: serif;
   letter-spacing: var(--text_space)
@@ -236,7 +204,6 @@ background-color: black;
 }
 
 .third_text2{
-  margin-right: 20vw;
   align-self: end;
   text-align: right;
   font-size: 1.7rem;

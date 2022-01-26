@@ -34,14 +34,6 @@ body {
   animation: fadein 3s;
 } */
 
-.vid{
-  position: fixed;
-  z-index: -1;
-  margin: 0;
-  padding: 0;
-  filter: brightness(40%);
-}
-
 .sticky_container {
   position: relative;
   position: sticky;
@@ -54,11 +46,11 @@ body {
   max-width: auto;
   padding: 12px 0px 6px 0px;
   text-align: center;
-  background-color: black;
+background-color: black;
 }
 
 .sticky_text{
-  padding-right: 30vw;
+  padding-right: 40vw;
   text-decoration: none;
   font-size: 1.5rem;
   font-family: serif;
@@ -77,9 +69,8 @@ body {
   transform: scale(1.1);
 }
 
-/* 본문 시작 */
-
 .box {
+  /* position: relative; */
   position: fixed;
   z-index: -1;
   margin: 0;
@@ -87,7 +78,17 @@ body {
   filter: brightness(40%);
 }
 
+/* .canvas{
+  align-content: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+} */
+
 .box_text {
+  /* position: absolute; /* 배경 위 글자 배치 */
+  /* top: 45%;
+  left: 50%; */
   text-align: center;
   line-height: 120%;
   font-size: 5rem;
@@ -126,15 +127,22 @@ body {
   font-weight: 600;
 }
 
-
-/* 첫번째 문단 */
 .first {
+  /* display: flex;
+  margin-top: 40vh;
+  margin-left: 10vw;
+  height: 100vh; */
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  justify-items: center;
   margin-top: 30vh;
   margin-bottom: 30vh;
+  /* 1fr씩 할당하고, 중앙으로 당겨온다 */
 }
 
 .first_text {
-  padding-top: 20vh;
+  margin-left: 10vw;
   font-size: 1.6rem;
   font-family: serif;
   font-weight: 600;
@@ -149,10 +157,10 @@ body {
 }
 
 .logo2 {
+  width: 100%;
+  margin-right: 10vw;
+  padding-bottom: 10vh;
 }
-/* 첫번째 문단 */
-
-/* 두번째 문단 */
 
 .second_text {
   margin-top: 5vh;
@@ -172,7 +180,38 @@ body {
   margin-right: auto;
 }
 
-/* 두번째 문단 */
+
+/* .third{
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+  margin-top: 50vh;
+  margin-bottom: 30vh;
+  height: 40vh;
+  
+}
+
+.third_text{
+  align-self: start;
+  margin-left: 5vw;
+  font-size: 1.7rem;
+  font-family: serif;
+  letter-spacing: var(--text_space)
+}
+
+.third_logo{
+  justify-self: center;
+}
+
+.third_text2{
+  margin-right: 10vw;
+  align-self: end;
+  text-align: right;
+  font-size: 1.7rem;
+  font-family: serif;
+  letter-spacing: var(--text_space)
+} */
 
 .third{
   position: relative;
@@ -186,6 +225,7 @@ body {
 
 .third_text{
   align-self: start;
+  margin-left: 20vw;
   font-size: 1.7rem;
   font-family: serif;
   letter-spacing: var(--text_space)
@@ -196,14 +236,13 @@ body {
 }
 
 .third_text2{
+  margin-right: 20vw;
   align-self: end;
   text-align: right;
   font-size: 1.7rem;
   font-family: serif;
   letter-spacing: var(--text_space)
 }
-
-
 
 .plus{
   margin-top: 50vh;
