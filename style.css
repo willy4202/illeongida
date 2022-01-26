@@ -13,13 +13,10 @@
     opacity: 1;
   }
 }
-
-@media (max-width:520px){
+/* 미디어 쿼리 */
+@media screen and (max-width: 520px){
   html{
     font-size: 7px;
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: none;
   }
   
   body{
@@ -27,10 +24,37 @@
     font-family: 'Nanum Myeongjo';
   }
 
-  .second_text {
-    text-align: left;
-  }
+.sticky_container .sticky_menu .sticky_text{
+  padding-right: 3%;
+  font-size: 1rem;
 }
+
+.trns .container .box_text{
+  font-size: 4rem;
+}
+
+.first .row .col-sm-8 .first_text{
+  font-size: 1.4rem;
+}
+
+.first .row .col-sm-8 .first_text2{
+  font-size: 1.4rem;
+}
+
+  .second .second_text {
+    font-size: 1.4rem;
+  }
+
+ .third .third_text{
+   font-size: 1.4rem;
+ }
+
+ .third .third_text2{
+  font-size: 1.4rem;
+}
+
+}
+/* 미디어 쿼리 */
 
 html {
   font-size: 10px;
@@ -39,10 +63,6 @@ html {
 	-moz-text-size-adjust: none;
 	-ms-text-size-adjust: none;
 }
-/* 
-img{
-  width: 70%;
-} */
 
 body {
   background-color: black;
