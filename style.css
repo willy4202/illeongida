@@ -1,47 +1,47 @@
 /* 폰트 크기 */
-
 :root {
   --box_text_size: 20px;
-  --text_space: -1.7px;
+  --text_space: -0.2px;
 }
 
-@font-face {
+/* @font-face {
   font-family: Noto;
-  src: url(/font/NotoSerifKR-Bold.otf);
-}
+  src: url();
+} */
 
-/* @keyframes fadein {
+@keyframes fadein {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-} */
-
-
-html {
-  font-size: 10px;
 }
+
 @media (max-width:500px){
   html{
     font-size: 7px;
   }
+}
 
+html {
+  font-size: 10px;
+}
+/* 
 img{
   width: 70%;
-}
-}
+} */
 
 body {
   background-color: black;
   color: white;
   overflow-x: hidden;
+  font-family: 'Nanum Myeongjo';
 }
 
-/* .fade {
+.trns {
   animation: fadein 3s;
-} */
+}
 
 .vid{
   position: fixed;
@@ -97,6 +97,7 @@ body {
 }
 
 .box_text {
+  font-family: initial;
   text-align: center;
   line-height: 120%;
   font-size: 5rem;
@@ -195,7 +196,7 @@ body {
 .third_text{
   align-self: start;
   font-size: 1.7rem;
-  font-family: serif;
+  line-height: 200%;
   letter-spacing: var(--text_space)
 }
 
@@ -207,7 +208,7 @@ body {
   align-self: end;
   text-align: right;
   font-size: 1.7rem;
-  font-family: serif;
+  line-height: 200%;
   letter-spacing: var(--text_space)
 }
 
