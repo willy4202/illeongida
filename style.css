@@ -25,8 +25,7 @@
   }
 
 .sticky_container .sticky_menu .sticky_text{
-  padding-right: 3%;
-  font-size: 1rem;
+  display: none;
 }
 
 .trns .container .box_text{
