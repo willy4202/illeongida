@@ -4,10 +4,6 @@
   --text_space: -0.2px;
 }
 
-/* @font-face {
-  font-family: Noto;
-  src: url();
-} */
 
 @keyframes fadein {
   from {
@@ -27,9 +23,10 @@
   }
   
   body{
+    overflow-x: hidden;
     font-family: 'Nanum Myeongjo';
   }
-  
+
   .second_text {
     text-align: left;
   }
@@ -85,7 +82,6 @@ body {
   padding-right: 30vw;
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: serif;
 }
 
 .sticky_btn {
@@ -112,11 +108,9 @@ body {
 }
 
 .box_text {
-  font-family: initial;
   text-align: center;
   line-height: 120%;
   font-size: 5rem;
-  font-family: serif;
   font-weight: 700;
   padding-top: 40vh;
 }
@@ -126,13 +120,11 @@ body {
   margin-bottom: 30vh;
   text-align: center;
   font-size: 2rem;
-  font-family: serif;
 }
 
 .new {
   text-align: center;
   font-size: 2.2rem;
-  font-family: serif;
   letter-spacing: var(--text_space)
   line-height: 700%;
 }
@@ -147,7 +139,6 @@ body {
 }
 
 .strong {
-  font-family: serif;
   font-weight: 600;
 }
 
@@ -160,7 +151,6 @@ body {
 
 .first_text {
   font-size: 1.6rem;
-  font-family: serif;
   font-weight: 600;
   line-height: 200%;
   letter-spacing: var(--text_space)
@@ -183,7 +173,6 @@ body {
   margin-bottom: 20vh;
   text-align: center;
   font-size: 1.7rem;
-  font-family: serif;
   font-weight: 600;
   line-height: 200%;
   letter-spacing: var(--text_space)
@@ -231,7 +220,6 @@ body {
   margin-top: 50vh;
   text-align: center;
   font-size: 1.7rem;
-  font-family: serif;
   font-weight: 600;
   line-height: 200%;
   letter-spacing: var(--text_space)
