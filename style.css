@@ -21,11 +21,18 @@
 @media (max-width:500px){
   html{
     font-size: 7px;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
   }
 }
 
 html {
   font-size: 10px;
+  display: inline-block;
+  -webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
 }
 /* 
 img{
