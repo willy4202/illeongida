@@ -25,6 +25,10 @@
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
   }
+  ,
+  body{
+    font-family: 'Nanum Myeongjo';
+  }
 }
 
 html {
