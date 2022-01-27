@@ -20,6 +20,10 @@
     overflow-x: hidden;
     font-family: 'Nanum Myeongjo';
   }
+  video{
+    -webkit-video-playable-inline
+  }
+}
 
 .sticky_container .sticky_menu .sticky_text{
   display: none;
