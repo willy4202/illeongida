@@ -33,23 +33,23 @@
   }
 
   .first .row .col-sm-8 .first_text{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
   .first .row .col-sm-8 .first_text2{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
   }
 
   .second .second_text {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .third .third_text{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .third .third_text2{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
 }
