@@ -15,11 +15,14 @@
 }
 /* 미디어 쿼리 */
 @media screen and (max-width: 520px){
-  html body{
-    font-size: 7px;
+html body{
     overflow-x: hidden;
+    font-size: 7px;
     font-family: 'Nanum Myeongjo';
   }
+
+video{
+  -webkit-video-playable-inline
 }
 
 .sticky_container .sticky_menu .sticky_text{
