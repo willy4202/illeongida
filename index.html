@@ -12,8 +12,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
     <!-- 나눔명조 -->
-
     <!-- 부트스트랩 뒤에 기존 파일 배치 -->
+
+    <!-- aos 스크롤 애니메이션 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>새롭게 일렁이다</title>
 
 </head>
@@ -41,6 +45,7 @@
             <div class="logo">
                 <img src="img/logo.png">
             </div>
+
             <div class="new">
                 새롭게 일렁이다란?<br>
                 <div class="line"></div>
@@ -48,49 +53,60 @@
             </div>
 
             <!-- 본문 시작 -->
-            <div class="first col-sm">
-                <div class="row align-items-center">
-                    <div class="col-sm-8">
-                        <div class="first_text">
-                            고요한 물에 어떠한 것이 떨어지면, 그 곳을 중심으로 원형의 파형이 일어납니다.<br>
-                            이 파장은 곧잘 나아가다 점차 흐려져 눈에 보이지 않을지언정, 끝끝내 어딘가에 당도합니다.<br>
-                            그 곳에서는 미약할지나마 새로운 일이 일어납니다.
+            <div data-aos="fade-up" data-aos-ease="ease-out" data-aos-duration="1500">
+                <div class="first col-sm">
+                    <div class="row align-items-center">
+                        <div class="col-sm-8">
+                            <div class="first_text">
+                                고요한 물에 어떠한 것이 떨어지면, 그 곳을 중심으로 원형의 파형이 일어납니다.<br>
+                                이 파장은 곧잘 나아가다 점차 흐려져 눈에 보이지 않을지언정, 끝끝내 어딘가에 당도합니다.<br>
+                                그 곳에서는 미약할지나마 새로운 일이 일어납니다.
+                                <br><br>
+                                <p class="first_text2">우리의 독립은 이러한 작고 작은, 미약한 변화가 켜켜이 쌓여 이루어졌습니다.</p>
+                            </div>
+                        </div>
+                        <img class="logo2 col-sm-4" src="img/logo2.webp">
+                    </div>
+                </div>
+            </div>
 
-                            <br><br>
-                            <p class="first_text2">우리의 독립은 이러한 작고 작은, 미약한 변화가 켜켜이 쌓여 이루어졌습니다.</p>
+            <section>
+                <div data-aos="fade-up" data-aos-ease="ease-out" data-aos-duration="1500">
+                    <div class="second">
+                        <div class="line2"></div>
+                        <div class="second_text">
+                            우리의 선조들이 세상에 삶을 내던져 작은 일렁임이 일었습니다.<br>
+                            이 일렁임은 오늘에 닿아 자유와 평화를 선물했습니다.<br>
+                            우리가 이어받은 이 파장은, 이 일렁임은 이어질 것입니다.<br><br>
+                            그러나, 우리는 고민해야 합니다.
                         </div>
                     </div>
-                    <img class="logo2 col-sm-4" src="img/logo2.webp">
                 </div>
-            </div>
-
-            <div class="second">
-                <div class="line2"></div>
-                <div class="second_text">
-                    우리의 선조들이 세상에 삶을 내던져 작은 일렁임이 일었습니다.<br>
-                    이 일렁임은 오늘에 닿아 자유와 평화를 선물했습니다.<br>
-                    우리가 이어받은 이 파장은, 이 일렁임은 이어질 것입니다.<br><br>
-                    그러나, 우리는 고민해야 합니다.
+            </section>
+            <section>
+                <div data-aos="fade-up" data-aos-ease="ease-out" data-aos-duration="1500">
+                    <div class="third">
+                        <div class=" third_text">
+                            우리가 이어받은 일렁임을 어떤 방식으로 기억해야 할까요?<br>
+                            우리는 새로운 일렁임을 통해 세상을 어떻게 바꿀 수 있을까요?<br>
+                            우리가 기억해야 할 선대의 의지는 무엇이며, <br>어떻게 가꾸어 나가야 할까요?
+                        </div>
+                        <div class="third_logo">
+                            <img src="img/logo3.png">
+                        </div>
+                        <div class="third_text2">
+                            우리는 이 모든 질문을 짊어지고 나아갑니다.<br>
+                            그들이 마땅히 그랬던 것 처럼
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="third">
-                <div class="third_text">
-                    우리가 이어받은 일렁임을 어떤 방식으로 기억해야 할까요?<br>
-                    우리는 새로운 일렁임을 통해 세상을 어떻게 바꿀 수 있을까요?<br>
-                    우리가 기억해야 할 선대의 의지는 무엇이며, <br>어떻게 가꾸어 나가야 할까요?
-                </div>
-                <div class="third_logo">
-                    <img src="img/logo3.png">
-                </div>
-                <div class="third_text2">
-                    우리는 이 모든 질문을 짊어지고 나아갑니다.<br>
-                    그들이 마땅히 그랬던 것 처럼
-                </div>
-            </div>
+            </section>
         </div>
+    </div>
 </body>
-
+<script>
+    AOS.init();
+</script>
 <script src="js/scroll.js"></script>
 
 </html>

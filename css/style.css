@@ -15,8 +15,7 @@
 }
 /* 미디어 쿼리 */
 @media screen and (max-width: 520px){
-  html body{
-    overflow-x: hidden;
+  html, body{
     font-size: 7px;
     font-family: 'Nanum Myeongjo';
   }
@@ -41,9 +40,9 @@
     font-size: 1.1rem;
   }
 
-    .second .second_text {
-      font-size: 1.2rem;
-    }
+  .second .second_text {
+    font-size: 1.2rem;
+  }
 
   .third .third_text{
     font-size: 1.2rem;
@@ -67,7 +66,6 @@ html {
 body {
   background-color: black;
   color: white;
-  overflow-x: hidden;
   font-family: 'Nanum Myeongjo';
 }
 
