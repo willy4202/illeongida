@@ -204,7 +204,7 @@ body {
   margin-right: auto;
 }
 
-/* 두번째 문단 */
+/* 세번째 문단 */
 
 .third{
   position: relative;
@@ -242,4 +242,21 @@ body {
   font-weight: 600;
   line-height: 200%;
   letter-spacing: var(--text_space)
+}
+
+.lastLink{
+  text-align: center;
+  margin-top: 40vh;
+  font-size: 2rem;
+  transition: 200ms ease-out;
+}
+
+.lastLink:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
