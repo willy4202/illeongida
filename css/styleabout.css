@@ -1,0 +1,118 @@
+/* 폰트 크기 */
+:root {
+  --box_text_size: 20px;
+  --text_space: -0.2px;
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* 미디어 쿼리 */
+@media screen and (max-width: 520px){
+  html, body{
+    font-size: 7px;
+    font-family: 'Nanum Myeongjo';
+  }
+
+  video{
+    -webkit-video-playable-inline
+  }
+
+  .sticky_container .sticky_menu .sticky_text{
+    display: none;
+  }
+
+  .trns .container .box_text{
+    font-size: 3rem;
+  }
+
+  .first .row .col-sm-8 .first_text{
+    font-size: 1.5rem;
+  }
+
+  .first .row .col-sm-8 .first_text2{
+    font-size: 1.6rem;
+  }
+
+  .second .second_text {
+    font-size: 1.5rem;
+  }
+
+  .third .third_text{
+    font-size: 1.5rem;
+  }
+
+  .third .third_text2{
+    font-size: 1.5rem;
+  }
+
+}
+/* 미디어 쿼리 */
+
+html {
+  font-size: 10px;
+  display: inline-block;
+  -webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Nanum Myeongjo';
+}
+
+
+.trns {
+  animation: fadein 3s;
+}
+
+.vid{
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  filter: brightness(40%);
+}
+
+.sticky_container {
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.sticky_menu {
+  margin: 0;
+  max-width: auto;
+  padding: 12px 0px 6px 0px;
+  text-align: center;
+  background-color: black;
+}
+
+.sticky_text{
+  padding-right: 30vw;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.sticky_btn {
+  border: 0;
+  padding-right: 2rem;
+  color: white;
+  background-color: transparent;
+  transition: 200ms ease-out;
+}
+
+.sticky_btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

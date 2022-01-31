@@ -77,7 +77,8 @@ body {
 .vid{
   position: fixed;
   z-index: -1;
-  height: 100%;
+  width: auto;
+  height: auto;
   margin: 0;
   padding: 0;
   filter: brightness(40%);
