@@ -4,7 +4,6 @@
   --text_space: -0.2px;
 }
 
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -64,8 +63,8 @@ html {
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: 'Nanum Myeongjo';
 }
 
@@ -77,10 +76,11 @@ body {
 .vid{
   position: fixed;
   z-index: -1;
+  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  filter: brightness(40%);
+  opacity: 90%;
 }
 
 .sticky_container {
@@ -95,7 +95,7 @@ body {
   max-width: auto;
   padding: 12px 0px 6px 0px;
   text-align: center;
-  background-color: black;
+  background-color: transparent;
 }
 
 .sticky_text{
@@ -107,7 +107,6 @@ body {
 .sticky_btn {
   border: 0;
   padding-right: 2rem;
-  color: white;
   background-color: transparent;
   transition: 200ms ease-out;
 }
@@ -115,4 +114,59 @@ body {
 .sticky_btn:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.back_img{
+  position: relative;
+  width: 100%;
+  filter: brightness(40%);
+}
+
+.back_logo{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sect1{
+  margin-top: 30%;
+}
+
+.col{
+  padding: 0;
+}
+
+.grid_2{
+  align-self: center;
+}
+
+.grid_img2{
+  width: 100%;
+  padding-left: 5%;
+}
+
+.col_text2{
+  font-size: 1.4rem;
+  padding-left: 5%;
+}
+
+.grid_3{
+  align-self: center;
+  text-align: end;
+}
+
+.grid_img3{
+  padding-right: 5%;
+  width: 100%;
+}
+
+.col_text3{
+  font-size: 1.4rem;
+  padding-right: 5%;
 }
