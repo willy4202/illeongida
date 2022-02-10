@@ -98,8 +98,7 @@ body {
   position: fixed;
   z-index: -1;
   object-fit: cover;
-  filter: brightness(10%);
-  filter: blur(30px);
+  filter: brightness(40%);
 }
 /* 뉴 코드 */
 
